@@ -15,6 +15,7 @@ specifiers:
   jest-environment-jsdom-global: 3.0.0
   jest-location-mock: ^1.0.9
   jest-mock-console: ^2.0.0
+  jest-transform-stub: 2.0.0
   less: 4.1.2
   less-loader: 10.2.0
   react: 17.0.2
@@ -46,6 +47,7 @@ devDependencies:
   jest-environment-jsdom-global: 3.0.0
   jest-location-mock: 1.0.9
   jest-mock-console: 2.0.0_jest@27.5.1
+  jest-transform-stub: 2.0.0
   less: 4.1.2
   less-loader: 10.2.0_less@4.1.2+webpack@5.72.0
   style-loader: 3.3.1_webpack@5.72.0
@@ -3197,6 +3199,10 @@ packages:
       semver: 7.3.7
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /jest-transform-stub/2.0.0:
+    resolution: {integrity: sha512-lspHaCRx/mBbnm3h4uMMS3R5aZzMwyNpNIJLXj4cEsV0mIUtS4IjYJLSoyjRCtnxb6RIGJ4NL2quZzfIeNhbkg==}
     dev: true
 
   /jest-util/27.5.1:
