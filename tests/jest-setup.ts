@@ -4,6 +4,9 @@ import "jest-location-mock";
 import mockConsole from "jest-mock-console";
 mockConsole()
 
+// 更多 Matchers
+import '@testing-library/jest-dom'
+
 // 详情：https://jestjs.io/docs/manual-mocks#mocking-methods-which-are-not-implemented-in-jsdom
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
