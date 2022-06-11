@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@types/testing-library__jest-dom": "^5.14.3",
-    "antd": "4.19.5",
+    "antd": "4.21.0",
     "axios": "0.26.1",
     "classnames": "2.3.1",
     "react": "17.0.2",
